@@ -1,19 +1,13 @@
 __author__ = 'jschumacher'
-import papi_server as papi
+import ppapi_server as ppapi
 import unittest
 import json
 import time
 import os
 
-# slaves C:\PythonT\trunk\Libraries\matrix\deployment>curl.exe -F "min_run_id=1" -F "max_run_id=3" -F "zip_file=@tests\test_data\calibration_model.zip" -F "type=beopest" -F "master=127.0.0.1:4004" http://127.0.0.1:1801/case/case1
-# master C:\PythonT\trunk\Libraries\matrix\deployment>curl.exe -F "min_run_id=1" -F "max_run_id=3" -F "zip_file=@tests\test_data\calibration_model.zip" -F "type=beopest" -F "master=:4004" http://msicallinuxtest.matrix-solutions.com:1801/case/case1
-# satus C:\PythonT\trunk\Libraries\matrix\deployment>curl.exe  http://127.0.0.1:1801/case/case1
-# master C:\PythonT\trunk\Libraries\matrix\deployment>curl.exe -F "min_run_id=1" -F "max_run_id=3" -F "zip_file=@tests\test_data\montecarlo_model.zip" -F "type=montecarlo" -F "master=:4004" http://127.0.0.1:1801/case/mc
-# master C:\PythonT\trunk\Libraries\matrix\deployment>curl.exe -F "min_run_id=1" -F "max_run_id=3" -F "zip_file=@tests\test_data\rm_real.zip" -F "type=responsematrix" -F "master=:4004" http://127.0.0.1:1801/case/rm_real
-
-class TestPapi(unittest.TestCase):
+class TestPPapi(unittest.TestCase):
     def setUp(self):
-        self.app = papi.app.test_client()
+        self.app = ppapi.app.test_client()
 
     def test_calibration_start(self):
         case_str = '/case/case1'

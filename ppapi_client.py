@@ -6,7 +6,7 @@ import threading
 import os
 import json
 
-class PAPIClient():
+class PPAPIClient():
     def __init__(self, _files, _servers, _case, _rtype, _port):
         self.servers = _servers
         self.case = _case
@@ -104,7 +104,9 @@ if __name__ == "__main__":
                                description=textwrap.dedent('''\
          Examples:
                  Start a BeoPEST run:
-                 python papi_server.py --case case1 --type beopest --action start --rf tests/test_data/calibration_model.zip
+                 python ppapi_client.py --case case1 --type beopest --action start --rf tests/test_data/calibration_model.zip
+                 Start a Monte Carlo run:
+                 python ppapi_client.py --case mc --type montecarlo --action start --rf tests/test_data/montecarlo_model.zip
          '''))
 
     parser.add_argument('--case', '-c', dest='case', required=True,
