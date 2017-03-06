@@ -42,9 +42,11 @@ RESTful Parallel Process API for High Throughput Computing
     to the directory where ppapi_server has been started
 
 1.) BeoPEST parameter estimation example
+
     python ppapi_client.py --case case1 --type beopest --action start –rf tests/test_data/calibration_model.zip
 
 2.) PEST Subspace Monte Carlo example 
+
     python ppapi_client.py --case case2 --type montecarlo --action start --rf tests/test_data/montecarlo_model2.zip
 
 Schreüder, W. 2009. Running BeoPEST. In Proceedings from ,PEST Conference 2009 , November 1–3, Potomac, MD. Bethesda, Maryland: S.S. Papadopulos and Associates.
