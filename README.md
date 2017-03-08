@@ -32,8 +32,11 @@ RESTful Parallel Process API for High Throughput Computing
 
 3b.) Automated ppapi_server start
     Start of ppapi_server.py can be automated using operating system specific mechanism.
+
     This is useful for configurations with many servers, e.g. on cloud computing resources
+
     Window: add start server task using the task schedular using the  "At startup" trigger
+
     Linux:  add start server task to crontab using the "@reboot" trigger, or
             add start server task to /etc/rc.local or /etc/rc.d/boot.local scripts
     
