@@ -21,7 +21,7 @@ RESTful Parallel Process API for High Throughput Computing
 
 ###Configuration and deployment
 
-1.) copy 
+1.) copy ppapi_server.py, processes.py and file_system.py to local file system
 
 2.) Add ppapi_server classes (processes.py, file_system.py) to PYTHONPATH
     Windows: set PYTHONPATH=%PYTHONPATH%;c:\path_to_ppapi_classes
@@ -31,15 +31,15 @@ RESTful Parallel Process API for High Throughput Computing
      python ppapi_server.py
 
 3b.) Automated ppapi_server start
-    Start of ppapi_server can be automated using operating system specific mechanism.
+    Start of ppapi_server.py can be automated using operating system specific mechanism.
     This is useful for configurations with many servers, e.g. on cloud computing resources
     Window: add start server task using the task schedular using the  "At startup" trigger
     Linux:  add start server task to crontab using the "@reboot" trigger, or
             add start server task to /etc/rc.local or /etc/rc.d/boot.local scripts
     
-### Application examples
+### Application examples (tests/test_data/)
     The application examples rely on BeoPEST/PEST (Schreüder 2009 and Doherty 2010), the executables (beopest/beopest.exe, pest/pest.exe and parrep/parrep.exe) have to be added to the PATH or 
-    to the directory where ppapi_server has been started
+    to the directory where ppapi_server is started
 
 1.) BeoPEST parameter estimation example
 
@@ -47,7 +47,7 @@ RESTful Parallel Process API for High Throughput Computing
 
 2.) PEST Subspace Monte Carlo example 
 
-    python ppapi_client.py --case case2 --type montecarlo --action start --rf tests/test_data/montecarlo_model2.zip
+    python ppapi_client.py --case case2 --type montecarlo --action start --rf tests/test_data/montecarlo_model.zip
 
 Schreüder, W. 2009. Running BeoPEST. In Proceedings from ,PEST Conference 2009 , November 1–3, Potomac, MD. Bethesda, Maryland: S.S. Papadopulos and Associates.
 ## License
