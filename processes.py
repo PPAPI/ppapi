@@ -13,7 +13,7 @@ if platform.system() == "Windows":
 
 
 ## Control and monitor system processes.
-#  This class provides functionality to start,
+#  This class provides functionality to start
 #  ,terminate and monitor processes.
 
 class Processes():

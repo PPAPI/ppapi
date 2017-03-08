@@ -11,7 +11,7 @@ class TestPPapi(unittest.TestCase):
 
     def test_calibration_start(self):
         case_str = '/case/case1'
-        r_file_str = os.path.join('test_data', 'calibration_model.zip')
+        r_file_str = os.path.join('tests', 'test_data', 'calibration_model.zip')
         res = self.app.delete(case_str)
         res = self.app.post(case_str, data=dict(
             zip_file=(open(r_file_str, 'rb'), 'calibration_model.zip'),
@@ -26,7 +26,7 @@ class TestPPapi(unittest.TestCase):
 
     def test_calibration_restart(self):
         case_str = '/case/case1'
-        r_file_str = os.path.join('test_data', 'calibration_model.zip')
+        r_file_str = os.path.join('tests','test_data', 'calibration_model.zip')
         res = self.app.delete(case_str)
         res = self.app.post(case_str, data=dict(
             zip_file=(open(r_file_str, 'rb'), 'calibration_model.zip'),
@@ -51,11 +51,11 @@ class TestPPapi(unittest.TestCase):
 
     def test_montecarlo_start(self):
         case_str = '/case/case1'
-        r_file_str = os.path.join('test_data', 'montecarlo_model2.zip')
+        r_file_str = os.path.join('tests','test_data', 'montecarlo_model.zip')
 
         res = self.app.delete(case_str)
         res = self.app.post(case_str, data=dict(
-            zip_file=(open(r_file_str, 'rb'), 'montecarlo_model2.zip'),
+            zip_file=(open(r_file_str, 'rb'), 'montecarlo_model.zip'),
             min_run_id=1,
             max_run_id=3,
             type="montecarlo",
@@ -68,7 +68,7 @@ class TestPPapi(unittest.TestCase):
 
     def test_generic_start(self):
         case_str = '/case/case1'
-        r_file_str = os.path.join('test_data', 'generic_model.zip')
+        r_file_str = os.path.join('tests','test_data', 'generic_model.zip')
         res = self.app.delete(case_str)
         res = self.app.post(case_str, data=dict(
             zip_file=(open(r_file_str, 'rb'), 'generic_model.zip'),

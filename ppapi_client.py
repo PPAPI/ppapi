@@ -116,7 +116,7 @@ if __name__ == "__main__":
                         help='beopest, generic, montecarlo')
 
     parser.add_argument('--action', '-a', dest='action', required=True,
-                        help='start,restart,delete,download)
+                        help='start,restart,delete,download')
 
     parser.add_argument('--rf', '-rf', dest='resource_files', required=False,
                         help='zipped resource file')
@@ -129,13 +129,13 @@ if __name__ == "__main__":
 
     master = '127.0.0.1'
     servers = [
-               {'server': master, 'runs': (1, 15), 'master': ':4004'}
+               {'server': master, 'runs': (1, 3), 'master': ':4004'}
                ]
 
     case = args.case
     rtype = args.type
     files = args.resource_files
-
+    rm_client = PPAPIClient(files, servers, case, rtype, port)
     if args.action == 'start':
         rm_client.post()
     if args.action == 'restart':
