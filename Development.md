@@ -2,7 +2,7 @@
 
 ### Files and Directories
 
-####processes.py
+#### processes.py
 
 Contains a class that provides functionality to start,terminate and monitor processes.
 
@@ -18,7 +18,7 @@ Server implementation used to define REST service endpoints.
 
 Client implementation for BeoPEST and PEST parameter estimations and uncertainty analyses.
 
-####tests
+#### tests
 
 Contains integration and unit tests
 
@@ -28,7 +28,7 @@ Examples and integration test data
 
 ### Architecture and Service Endpoints
 
-####Service endpoints are defined by URI and HTTP Verb in a RESTful way.
+#### Service endpoints are defined by URI and HTTP Verb in a RESTful way.
 
 "/api" and "GET" defines the request get information about all service enpoint for the PPAPI:
 
