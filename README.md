@@ -1,5 +1,5 @@
 ## PPAPI
-RESTful Parallel Process API for High Throughput Computing
+RESTful Parallel Processes API for High Throughput Computing
 
 
 ## Installation
@@ -9,15 +9,17 @@ RESTful Parallel Process API for High Throughput Computing
 
     https://www.python.org/
 
-    Versions >= 2.7
+    Versions >= 2.6
 
 2.) Flask
 
     http://flask.pocoo.org/
+    pip install Flask
 
 3.) psutil
 
     https://pythonhosted.org/psutil/
+    pip install psutil
 
 ### Configuration and deployment
 
@@ -28,19 +30,30 @@ RESTful Parallel Process API for High Throughput Computing
     Linux:   export PYTHONPATH=$PYTHONPATH,\path_to_ppapi_classes
 
 3a.) Manual ppapi_server start
+
      python ppapi_server.py
 
 3b.) Automated ppapi_server start
-    Start of ppapi_server.py can be automated using operating system specific mechanism. This is useful for configurations with many servers, e.g. on cloud computing resources
 
-    Window: add start server task using the task schedular using the  "At startup" trigger
+     Start of ppapi_server.py can be automated using operating system specific mechanism. This is useful for configurations with many servers, e.g. on cloud computing resources
 
-    Linux:  add start server task to crontab using the "@reboot" trigger, or
-            add start server task to /etc/rc.local or /etc/rc.d/boot.local scripts
+    Window: 
+    
+    add start server task using the task schedular using the  "At startup" trigger
+
+    Linux:  
+     
+    add start server task to crontab using the "@reboot" trigger, or
+    add start server task to /etc/rc.local or /etc/rc.d/boot.local scripts
+
+4.) Ports/Firewall
+
+    open ports for ppapi server (defined in ppapi_server.py, default = 1801) and BeoPEST
     
 ### Application examples (tests/test_data/)
-    The application examples rely on BeoPEST/PEST (Schreüder 2009 and Doherty 2010), the executables (beopest/beopest.exe, pest/pest.exe and parrep/parrep.exe) have to be added to the PATH or 
-    to the directory where ppapi_server is started
+    
+    The application examples rely on BeoPEST/PEST (Schreüder 2009 and Doherty 2010), the executables (beopest/beopest.exe, pest/pest.exe and parrep/parrep.exe)
+    have to be added to the PATH or to the directory where ppapi_server is started
 
 1.) BeoPEST parameter estimation example
 
@@ -50,6 +63,7 @@ RESTful Parallel Process API for High Throughput Computing
 
     python ppapi_client.py --case case2 --type montecarlo --action start --rf tests/test_data/montecarlo_model.zip
 
+Doherty, J. 2010. PEST, Model-independent Parameter Estimation—User Manual, 5thwith slight additions ed. Brisbane, Australia: Watermark Numerical Computing
 Schreüder, W. 2009. Running BeoPEST. In Proceedings from ,PEST Conference 2009 , November 1–3, Potomac, MD. Bethesda, Maryland: S.S. Papadopulos and Associates.
 ## License
 
