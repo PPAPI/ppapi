@@ -26,7 +26,9 @@ RESTful Parallel Processes API for High Throughput Computing
 1.) copy ppapi_server.py, processes.py and file_system.py to local file system
 
 2.) Add ppapi_server classes (processes.py, file_system.py) to PYTHONPATH
+
     Windows: set PYTHONPATH=%PYTHONPATH%;c:\path_to_ppapi_classes
+
     Linux:   export PYTHONPATH=$PYTHONPATH,\path_to_ppapi_classes
 
 3a.) Manual ppapi_server start
@@ -44,6 +46,7 @@ RESTful Parallel Processes API for High Throughput Computing
     Linux:  
      
     add start server task to crontab using the "@reboot" trigger, or
+
     add start server task to /etc/rc.local or /etc/rc.d/boot.local scripts
 
 4.) Ports/Firewall
@@ -64,6 +67,7 @@ RESTful Parallel Processes API for High Throughput Computing
     python ppapi_client.py --case case2 --type montecarlo --action start --rf tests/test_data/montecarlo_model.zip
 
 Doherty, J. 2010. PEST, Model-independent Parameter Estimation—User Manual, 5thwith slight additions ed. Brisbane, Australia: Watermark Numerical Computing
+
 Schreüder, W. 2009. Running BeoPEST. In Proceedings from ,PEST Conference 2009 , November 1–3, Potomac, MD. Bethesda, Maryland: S.S. Papadopulos and Associates.
 ## License
 
