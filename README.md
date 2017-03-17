@@ -27,9 +27,9 @@ RESTful Parallel Processes API for High Throughput Computing
 
 2.) Add ppapi_server classes (processes.py, file_system.py) to PYTHONPATH
 
-    Windows: set PYTHONPATH=%PYTHONPATH%;c:\path_to_ppapi_classes
+    Windows: set PYTHONPATH=%PYTHONPATH%;c:\\path_to_ppapi_classes
 
-    Linux:   export PYTHONPATH=$PYTHONPATH,\path_to_ppapi_classes
+    Linux:   export PYTHONPATH=$PYTHONPATH,/path_to_ppapi_classes
 
 3a.) Manual ppapi_server start
 
