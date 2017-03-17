@@ -1,20 +1,20 @@
 ## Software Development
 
-###Files and Directories
+### Files and Directories
 
 ####processes.py
 
 Contains a class that provides functionality to start,terminate and monitor processes.
 
-####processes.py
+#### processes.py
 
 Contains a class that provides functionality to copy, unzip and delete files.
 
-####ppapi_server.py
+#### ppapi_server.py
 
 Server implementation used to define REST service endpoints.
 
-####ppapi_client.py
+#### ppapi_client.py
 
 Client implementation for BeoPEST and PEST parameter estimations and uncertainty analyses.
 
@@ -22,11 +22,11 @@ Client implementation for BeoPEST and PEST parameter estimations and uncertainty
 
 Contains integration and unit tests
 
-####tests/test_data
+#### tests/test_data
 
 Examples and integration test data
 
-###Architecture and Service Endpoints
+### Architecture and Service Endpoints
 
 ####Service endpoints are defined by URI and HTTP Verb in a RESTful way.
 

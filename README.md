@@ -3,7 +3,7 @@ RESTful Parallel Process API for High Throughput Computing
 
 
 ## Installation
-###Install required software
+### Install required software
 
 1.) Python
 
@@ -19,7 +19,7 @@ RESTful Parallel Process API for High Throughput Computing
 
     https://pythonhosted.org/psutil/
 
-###Configuration and deployment
+### Configuration and deployment
 
 1.) copy ppapi_server.py, processes.py and file_system.py to local file system
 
@@ -31,9 +31,7 @@ RESTful Parallel Process API for High Throughput Computing
      python ppapi_server.py
 
 3b.) Automated ppapi_server start
-    Start of ppapi_server.py can be automated using operating system specific mechanism.
-
-    This is useful for configurations with many servers, e.g. on cloud computing resources
+    Start of ppapi_server.py can be automated using operating system specific mechanism. This is useful for configurations with many servers, e.g. on cloud computing resources
 
     Window: add start server task using the task schedular using the  "At startup" trigger
 
