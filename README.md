@@ -39,7 +39,7 @@ RESTful Parallel Processes API for High Throughput Computing
 
      Start of ppapi_server.py can be automated using operating system specific mechanism. This is useful for configurations with many servers, e.g. on cloud computing resources
 
-    Window: 
+    Windows: 
     
     add start server task using the task schedular using the  "At startup" trigger
 
