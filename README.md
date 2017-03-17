@@ -51,7 +51,7 @@ RESTful Parallel Processes API for High Throughput Computing
 
 4.) Ports/Firewall
 
-    open ports for ppapi server (defined in ppapi_server.py, default = 1801) and BeoPEST
+    open ports in firewall for ppapi server (defined in ppapi_server.py, default = 1801) and BeoPEST
     
 ### Application examples (tests/test_data/)
     
