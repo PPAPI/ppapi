@@ -160,7 +160,6 @@ class FileSystem():
         u = urlopen(url)
         f = open(os.path.join(_case, file_name), 'wb')
         meta = u.info()
-        req_version=None
         if req_version == 2:
             file_size = int(meta.getheaders("Content-Length")[0])
         else:

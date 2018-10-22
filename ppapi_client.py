@@ -127,9 +127,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
     port = '1801'
 
-    master = '127.0.0.1'
+    master = 'ec2-54-160-241-64.compute-1.amazonaws.com'
     servers = [
-               {'server': master, 'runs': (1, 3), 'master': ':4004'}
+               {'server': master, 'runs': (1, 2), 'master': ':4004'}
                ]
 
     case = args.case

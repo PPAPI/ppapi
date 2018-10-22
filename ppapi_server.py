@@ -100,7 +100,12 @@ def case_post_put(case):
 
     if str(c_type).upper() == 'BEOPEST':
         return jsonify(
-            runs=ps_helpers.start_beopest(case, master_ip, master_port, run_ids, request, restart, debug=DEBUG),
+            runs=ps_helpers.start_pestpp(case, "beopest", master_ip, master_port, run_ids, request, restart, debug=DEBUG),
+            hostname=hostname)
+
+    if str(c_type).upper() == 'PESTPP-IES':
+        return jsonify(
+            runs=ps_helpers.start_pestpp(case, "pestpp-ies", master_ip, master_port, run_ids, request, restart, debug=DEBUG),
             hostname=hostname)
 
     if str(c_type).upper() == 'MONTECARLO':

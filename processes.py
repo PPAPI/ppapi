@@ -197,19 +197,19 @@ class Processes():
     #  @param restart restart if set to True <boolean>
     #  @param debug start consoles for each run if set to True <boolean>
     #  @retval procs list of all started processes <list>
-    def start_beopest(self, _case, _master_ip, _master_port, _run_ids, _request, restart, debug=False):
+    def start_pestpp(self, execf, _case, _master_ip, _master_port, _run_ids, _request, restart, debug=False):
         # if master node
         if _master_ip == "":
             _master_ip = "127.0.0.1"
             command = []
             if restart:
-                command = ["beopest", "calibration.pst", "/s", "/h", ":" + _master_port]
+                command = [execf, "calibration.pst", "/s", "/h", ":" + _master_port]
             # if not restart then save resource zip file and extract run files
             else:
                 filei = _request.files['zip_file']
                 self.fs_helpers.save_base_zip_file(_case, filei)
                 self.fs_helpers.extract_all_run_files(_case, [0])
-                command = ["beopest", "calibration.pst", "/h", ":" + _master_port]
+                command = [execf, "calibration.pst", "/h", ":" + _master_port]
             self.start_process(_case, 0, command, create_console=debug)
             time.sleep(2)
         if len(_run_ids) > 0:
@@ -219,7 +219,7 @@ class Processes():
             self.fs_helpers.extract_all_run_files(_case, _run_ids)
             for run_id in _run_ids:
                 if str(run_id) != "0":
-                    command = ["beopest", "calibration.pst", "/h", _master_ip + ":" + _master_port]
+                    command = [execf, "calibration.pst", "/h", _master_ip + ":" + _master_port]
                     self.start_process(_case, run_id, command, create_console=debug)
         return self.all_runs_for_case(_case)
 
