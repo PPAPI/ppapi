@@ -1,0 +1,4 @@
+*.exe
+*.bat
+*.pyc
+connects.py
