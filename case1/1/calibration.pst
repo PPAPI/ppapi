@@ -1,0 +1,45 @@
+pcf
+* control data
+ restart estimation
+2       20       2     0      1
+1   2    single point 1  0  0
+5    2.0  0.3   0.01  7 999
+3.0  3.0  0.001
+0.1  noaui
+10  0.01  3  3  0.01  3
+1  1  1
+* parameter groups
+ tr      relative    0.01    0    always_3  2.0 parabolic
+ stor    relative    0.01    0    always_3  2.0 parabolic 
+* parameter data
+ tr1    Log    factor   5       0.1          10000    tr    1  0  1 
+ stor1  Log    factor   0.01    0.00001        0.1    stor  1  0  1  
+* observation groups
+ dd
+* observation data
+obs_1_1   3.18861598998   1.0 dd
+obs_1_2   3.81150847221   1.0 dd
+obs_1_3   4.18536527731   1.0 dd
+obs_1_4   4.45335097055   1.0 dd
+obs_1_5   5.83599658074   1.0 dd
+obs_1_6   2.70563971199   1.0 dd
+obs_1_7   2.54776551404   1.0 dd
+obs_1_8   2.26225707028   1.0 dd
+obs_1_9   1.03821217908   1.0 dd
+obs_1_10  0.430482264066  1.0 dd
+obs_2_1   2.61997914671   1.0 dd
+obs_2_2   3.24336557523   1.0 dd
+obs_2_3   3.61744273612   1.0 dd
+obs_2_4   3.88554964377   1.0 dd
+obs_2_5   5.10212134842   1.0 dd
+obs_2_6   2.65474158093   1.0 dd
+obs_2_7   2.49689004459   1.0 dd
+obs_2_8   2.1990939271    1.0 dd
+obs_2_9   1.0379767223    1.0 dd
+obs_2_10  0.430466887071  1.0 dd
+* model command line
+  python Theis_Drawdown.py
+* model input/output
+ ap.tpl     params.txt
+ obs_1.ins   obs_1.csv
+ obs_2.ins   obs_2.csv

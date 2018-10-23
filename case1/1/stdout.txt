@@ -1,0 +1,4494 @@
+
+
+             pestpp-ies: a GLM iterative ensemble smoother, version 4.1.11
+                     for PEST(++) datasets 
+
+                 by the PEST++ development team
+
+
+IP addresses:
+  127.0.0.1:4004 (IPv4)
+
+YAMR Slave will poll for master connection every 1 seconds
+connection to master succeeded on socket: 127.0.0.1:4004 (IPv4)
+
+Memory required:  315K.
+
+
+LINPACK benchmark, Double precision.
+Machine precision:  15 digits.
+Array size 200 X 200.
+Average rolled and unrolled performance:
+
+    Reps Time(s) DGEFA   DGESL  OVERHEAD    KFLOPS
+----------------------------------------------------
+
+received parameters (group id = 2, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 3.2808984, ' m^2/d')
+('Storage:                     ', 0.013631061, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 5)
+starting model run...
+INPUTS
+('Transmissivity:              ', 146.95339, ' m^2/d')
+('Storage:                     ', 0.0028389582, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 5)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 8)
+starting model run...
+INPUTS
+('Transmissivity:              ', 0.45985265, ' m^2/d')
+('Storage:                     ', 2.7597997e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 8)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 10)
+starting model run...
+INPUTS
+('Transmissivity:              ', 93.972225, ' m^2/d')
+('Storage:                     ', 0.0023498685, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 10)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 14)
+starting model run...
+INPUTS
+('Transmissivity:              ', 0.1, ' m^2/d')
+('Storage:                     ', 0.00087227017, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 14)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 17)
+starting model run...
+INPUTS
+('Transmissivity:              ', 2.4824291, ' m^2/d')
+('Storage:                     ', 0.1, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 17)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 20)
+starting model run...
+INPUTS
+('Transmissivity:              ', 32.073652, ' m^2/d')
+('Storage:                     ', 0.0074447684, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 20)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 22)
+starting model run...
+INPUTS
+('Transmissivity:              ', 0.85437538, ' m^2/d')
+('Storage:                     ', 0.029502676, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 22)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 26)
+starting model run...
+INPUTS
+('Transmissivity:              ', 145.31373, ' m^2/d')
+('Storage:                     ', 0.1, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 26)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 29)
+starting model run...
+INPUTS
+('Transmissivity:              ', 0.20163647, ' m^2/d')
+('Storage:                     ', 0.00019291845, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 29)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 32)
+starting model run...
+INPUTS
+('Transmissivity:              ', 356.49692, ' m^2/d')
+('Storage:                     ', 0.0018712758, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 32)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 35)
+starting model run...
+INPUTS
+('Transmissivity:              ', 0.25244082, ' m^2/d')
+('Storage:                     ', 0.0083855128, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 35)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 38)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.039825, ' m^2/d')
+('Storage:                     ', 0.1, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 38)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 41)
+starting model run...
+INPUTS
+('Transmissivity:              ', 104.29595, ' m^2/d')
+('Storage:                     ', 0.020434637, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 41)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 44)
+starting model run...
+INPUTS
+('Transmissivity:              ', 1.5804672, ' m^2/d')
+('Storage:                     ', 0.084352051, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 44)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 2, run id = 47)
+starting model run...
+INPUTS
+('Transmissivity:              ', 0.80473427, ' m^2/d')
+('Storage:                     ', 0.076251593, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 2, run id = 47)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.1513793, ' m^2/d')
+('Storage:                     ', 0.0081430431, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 4)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.2287791, ' m^2/d')
+('Storage:                     ', 0.0073481853, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 4)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 7)
+starting model run...
+INPUTS
+('Transmissivity:              ', 27.414097, ' m^2/d')
+('Storage:                     ', 0.067869163, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 7)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 9)
+starting model run...
+INPUTS
+('Transmissivity:              ', 19.450964, ' m^2/d')
+('Storage:                     ', 0.0046377394, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 9)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 13)
+starting model run...
+INPUTS
+('Transmissivity:              ', 25.669163, ' m^2/d')
+('Storage:                     ', 0.0042121009, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 13)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 15)
+starting model run...
+INPUTS
+('Transmissivity:              ', 26.563664, ' m^2/d')
+('Storage:                     ', 0.059643527, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 15)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 19)
+starting model run...
+INPUTS
+('Transmissivity:              ', 26.230924, ' m^2/d')
+('Storage:                     ', 0.056639532, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 19)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 22)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.1277, ' m^2/d')
+('Storage:                     ', 0.077800901, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 22)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 24)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.3514112, ' m^2/d')
+('Storage:                     ', 0.0077418022, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 24)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 27)
+starting model run...
+INPUTS
+('Transmissivity:              ', 28.514823, ' m^2/d')
+('Storage:                     ', 0.071858137, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 27)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 30)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.207386, ' m^2/d')
+('Storage:                     ', 0.062068435, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 30)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 33)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.456063, ' m^2/d')
+('Storage:                     ', 0.0057253589, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 33)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 36)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.5237525, ' m^2/d')
+('Storage:                     ', 0.006870184, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 36)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 39)
+starting model run...
+INPUTS
+('Transmissivity:              ', 27.790016, ' m^2/d')
+('Storage:                     ', 0.061588278, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 39)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 42)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.097744, ' m^2/d')
+('Storage:                     ', 0.080252584, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 42)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 45)
+starting model run...
+INPUTS
+('Transmissivity:              ', 2.1414233, ' m^2/d')
+('Storage:                     ', 0.01084768, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 45)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 48)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.4411238, ' m^2/d')
+('Storage:                     ', 0.0075931181, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 48)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 51)
+starting model run...
+INPUTS
+('Transmissivity:              ', 28.409795, ' m^2/d')
+('Storage:                     ', 0.069317246, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 51)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 54)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.155968, ' m^2/d')
+('Storage:                     ', 0.064404772, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 54)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 57)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.947404, ' m^2/d')
+('Storage:                     ', 0.0068684279, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 57)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 60)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.1696716, ' m^2/d')
+('Storage:                     ', 0.0089109594, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 60)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 63)
+starting model run...
+INPUTS
+('Transmissivity:              ', 29.080929, ' m^2/d')
+('Storage:                     ', 0.085068193, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 63)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 66)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.885537, ' m^2/d')
+('Storage:                     ', 0.075916262, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 66)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 69)
+starting model run...
+INPUTS
+('Transmissivity:              ', 2.2552913, ' m^2/d')
+('Storage:                     ', 0.01255457, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 69)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 72)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.345101, ' m^2/d')
+('Storage:                     ', 0.0079405197, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 72)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 75)
+starting model run...
+INPUTS
+('Transmissivity:              ', 28.066269, ' m^2/d')
+('Storage:                     ', 0.072365974, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 75)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 78)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.814277, ' m^2/d')
+('Storage:                     ', 0.066756117, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 78)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 81)
+starting model run...
+INPUTS
+('Transmissivity:              ', 0.30245086, ' m^2/d')
+('Storage:                     ', 0.02503129, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 81)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 84)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.0721412, ' m^2/d')
+('Storage:                     ', 0.0088954886, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 84)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 87)
+starting model run...
+INPUTS
+('Transmissivity:              ', 27.908172, ' m^2/d')
+('Storage:                     ', 0.083266806, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 87)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 90)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.276725, ' m^2/d')
+('Storage:                     ', 0.077144112, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 90)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 93)
+starting model run...
+INPUTS
+('Transmissivity:              ', 0.91476524, ' m^2/d')
+('Storage:                     ', 0.021692833, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 93)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 96)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.1061624, ' m^2/d')
+('Storage:                     ', 0.0084226557, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 96)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 3, run id = 99)
+starting model run...
+INPUTS
+('Transmissivity:              ', 26.927198, ' m^2/d')
+('Storage:                     ', 0.07644671, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 3, run id = 99)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 2)
+starting model run...
+INPUTS
+('Transmissivity:              ', 0.92656571, ' m^2/d')
+('Storage:                     ', 0.014863979, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 2)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 5)
+starting model run...
+INPUTS
+('Transmissivity:              ', 1.2077673, ' m^2/d')
+('Storage:                     ', 0.022652952, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 5)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 8)
+starting model run...
+INPUTS
+('Transmissivity:              ', 1.0436181, ' m^2/d')
+('Storage:                     ', 0.0034824847, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 8)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 11)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.2638477, ' m^2/d')
+('Storage:                     ', 0.070420728, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 11)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 14)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.1986924, ' m^2/d')
+('Storage:                     ', 0.071483558, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 14)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 17)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.373978, ' m^2/d')
+('Storage:                     ', 0.071007891, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 17)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 20)
+starting model run...
+INPUTS
+('Transmissivity:              ', 0.74541109, ' m^2/d')
+('Storage:                     ', 0.043795386, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 20)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 23)
+starting model run...
+INPUTS
+('Transmissivity:              ', 3.733621, ' m^2/d')
+('Storage:                     ', 0.011809759, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 23)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 26)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.5879604, ' m^2/d')
+('Storage:                     ', 0.0048574851, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 26)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 29)
+starting model run...
+INPUTS
+('Transmissivity:              ', 13.804191, ' m^2/d')
+('Storage:                     ', 0.0089128642, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 29)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 32)
+starting model run...
+INPUTS
+('Transmissivity:              ', 76.576797, ' m^2/d')
+('Storage:                     ', 0.01509483, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 32)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 35)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.4831057, ' m^2/d')
+('Storage:                     ', 0.022127312, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 35)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 38)
+starting model run...
+INPUTS
+('Transmissivity:              ', 106.32008, ' m^2/d')
+('Storage:                     ', 0.014204496, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 38)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 41)
+starting model run...
+INPUTS
+('Transmissivity:              ', 1.9320947, ' m^2/d')
+('Storage:                     ', 0.057727062, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 41)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 4, run id = 44)
+starting model run...
+INPUTS
+('Transmissivity:              ', 1.3259464, ' m^2/d')
+('Storage:                     ', 0.0476433, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 4, run id = 44)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.5681335, ' m^2/d')
+('Storage:                     ', 0.0030479023, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 4)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.6797641, ' m^2/d')
+('Storage:                     ', 0.0019124079, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 4)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 7)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.5934063, ' m^2/d')
+('Storage:                     ', 0.0029217276, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 7)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 10)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.8037637, ' m^2/d')
+('Storage:                     ', 0.0018442796, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 10)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 13)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.976815, ' m^2/d')
+('Storage:                     ', 0.0079056103, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 13)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 16)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.8398168, ' m^2/d')
+('Storage:                     ', 0.00099584512, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 16)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 19)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.913577, ' m^2/d')
+('Storage:                     ', 0.0011686662, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 19)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 22)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.1135073, ' m^2/d')
+('Storage:                     ', 0.006026822, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 22)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 25)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.204085, ' m^2/d')
+('Storage:                     ', 0.036999382, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 25)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 28)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.2411884, ' m^2/d')
+('Storage:                     ', 0.0038950639, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 28)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 31)
+starting model run...
+INPUTS
+('Transmissivity:              ', 3.8033529, ' m^2/d')
+('Storage:                     ', 0.0083220872, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 31)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 34)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.4023696, ' m^2/d')
+('Storage:                     ', 0.0045132555, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 34)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 37)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.2131171, ' m^2/d')
+('Storage:                     ', 0.027143329, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 37)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 40)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.6600745, ' m^2/d')
+('Storage:                     ', 0.0062826676, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 40)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 43)
+starting model run...
+INPUTS
+('Transmissivity:              ', 1.9944503, ' m^2/d')
+('Storage:                     ', 0.015969054, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 43)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 46)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.0122181, ' m^2/d')
+('Storage:                     ', 0.0063009075, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 46)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 49)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.812258, ' m^2/d')
+('Storage:                     ', 0.043550071, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 49)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 52)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.05805, ' m^2/d')
+('Storage:                     ', 0.0050985431, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 52)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 55)
+starting model run...
+INPUTS
+('Transmissivity:              ', 2.9786654, ' m^2/d')
+('Storage:                     ', 0.012250965, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 55)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 58)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.0934192, ' m^2/d')
+('Storage:                     ', 0.0056208765, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 58)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 61)
+starting model run...
+INPUTS
+('Transmissivity:              ', 19.109365, ' m^2/d')
+('Storage:                     ', 0.061824304, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 61)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 64)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.4685522, ' m^2/d')
+('Storage:                     ', 0.0065150809, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 64)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 67)
+starting model run...
+INPUTS
+('Transmissivity:              ', 2.0152647, ' m^2/d')
+('Storage:                     ', 0.016950298, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 67)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 70)
+starting model run...
+INPUTS
+('Transmissivity:              ', 3.9072111, ' m^2/d')
+('Storage:                     ', 0.0068156772, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 70)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 73)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.806246, ' m^2/d')
+('Storage:                     ', 0.053191535, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 73)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 77)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.821074, ' m^2/d')
+('Storage:                     ', 0.051615386, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 77)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 80)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.9651926, ' m^2/d')
+('Storage:                     ', 0.0073653535, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 80)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 83)
+starting model run...
+INPUTS
+('Transmissivity:              ', 1.5461127, ' m^2/d')
+('Storage:                     ', 0.019708432, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 83)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 86)
+starting model run...
+INPUTS
+('Transmissivity:              ', 3.8436196, ' m^2/d')
+('Storage:                     ', 0.0076167659, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 86)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 89)
+starting model run...
+INPUTS
+('Transmissivity:              ', 18.239672, ' m^2/d')
+('Storage:                     ', 0.063158432, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 89)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 92)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.6068478, ' m^2/d')
+('Storage:                     ', 0.0070072098, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 92)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 95)
+starting model run...
+INPUTS
+('Transmissivity:              ', 1.7900187, ' m^2/d')
+('Storage:                     ', 0.018660191, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 95)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 5, run id = 98)
+starting model run...
+INPUTS
+('Transmissivity:              ', 3.8436293, ' m^2/d')
+('Storage:                     ', 0.0074235171, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 5, run id = 98)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.9364018, ' m^2/d')
+('Storage:                     ', 0.00070841889, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 3)
+starting model run...
+INPUTS
+('Transmissivity:              ', 7.5632993, ' m^2/d')
+('Storage:                     ', 0.00076389772, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 3)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 6)
+starting model run...
+INPUTS
+('Transmissivity:              ', 39.779534, ' m^2/d')
+('Storage:                     ', 0.00024796128, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 6)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 9)
+starting model run...
+INPUTS
+('Transmissivity:              ', 78.44348, ' m^2/d')
+('Storage:                     ', 0.00054595161, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 9)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 12)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.5507737, ' m^2/d')
+('Storage:                     ', 0.0015958109, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 12)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 15)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.1753178, ' m^2/d')
+('Storage:                     ', 0.0010744459, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 15)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 18)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.2149422, ' m^2/d')
+('Storage:                     ', 0.0053003416, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 18)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 21)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.911217, ' m^2/d')
+('Storage:                     ', 0.0006934784, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 21)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 24)
+starting model run...
+INPUTS
+('Transmissivity:              ', 2.7398816, ' m^2/d')
+('Storage:                     ', 0.0032702767, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 24)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 27)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.2211418, ' m^2/d')
+('Storage:                     ', 0.00071250196, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 27)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 30)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.8706292, ' m^2/d')
+('Storage:                     ', 0.0010588533, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 30)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 33)
+starting model run...
+INPUTS
+('Transmissivity:              ', 19.751614, ' m^2/d')
+('Storage:                     ', 0.0012896439, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 33)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 36)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.090336, ' m^2/d')
+('Storage:                     ', 3.7102604e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 36)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 39)
+starting model run...
+INPUTS
+('Transmissivity:              ', 3.9810957, ' m^2/d')
+('Storage:                     ', 0.0020685365, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 39)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 6, run id = 42)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.7132727, ' m^2/d')
+('Storage:                     ', 0.0010651734, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 6, run id = 42)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.7006289, ' m^2/d')
+('Storage:                     ', 0.0004507943, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 3)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.1764026, ' m^2/d')
+('Storage:                     ', 0.00078490329, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 3)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 7)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.9025648, ' m^2/d')
+('Storage:                     ', 0.00048349573, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 7)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 10)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.1516361, ' m^2/d')
+('Storage:                     ', 0.00030606187, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 10)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 12)
+starting model run...
+INPUTS
+('Transmissivity:              ', 7.6883282, ' m^2/d')
+('Storage:                     ', 0.00020406336, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 12)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 16)
+starting model run...
+INPUTS
+('Transmissivity:              ', 7.9026943, ' m^2/d')
+('Storage:                     ', 0.00017414955, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 16)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 18)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.4720775, ' m^2/d')
+('Storage:                     ', 0.0002689808, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 18)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 22)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.6880765, ' m^2/d')
+('Storage:                     ', 0.00054194531, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 22)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 25)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.0661066, ' m^2/d')
+('Storage:                     ', 0.00042617435, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 25)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 28)
+starting model run...
+INPUTS
+('Transmissivity:              ', 7.1198141, ' m^2/d')
+('Storage:                     ', 0.00033679427, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 28)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 31)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.044821, ' m^2/d')
+('Storage:                     ', 0.00053577027, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 31)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 34)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.8462865, ' m^2/d')
+('Storage:                     ', 0.00042352396, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 34)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 37)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.6723036, ' m^2/d')
+('Storage:                     ', 0.00036035727, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 37)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 39)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.4568771, ' m^2/d')
+('Storage:                     ', 0.00043285676, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 39)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 43)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.8102817, ' m^2/d')
+('Storage:                     ', 0.0012059189, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 43)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 45)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.4360178, ' m^2/d')
+('Storage:                     ', 0.00055840399, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 45)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 48)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.8283354, ' m^2/d')
+('Storage:                     ', 0.00044467893, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 48)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 51)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.7032396, ' m^2/d')
+('Storage:                     ', 0.00074200625, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 51)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 54)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.9262662, ' m^2/d')
+('Storage:                     ', 0.00053370159, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 54)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 57)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.9545478, ' m^2/d')
+('Storage:                     ', 0.00053562773, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 57)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 60)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.2016934, ' m^2/d')
+('Storage:                     ', 0.0007510908, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 60)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 63)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.6464252, ' m^2/d')
+('Storage:                     ', 0.0014278307, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 63)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 66)
+starting model run...
+INPUTS
+('Transmissivity:              ', 7.4769161, ' m^2/d')
+('Storage:                     ', 0.0006643437, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 66)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 69)
+starting model run...
+INPUTS
+('Transmissivity:              ', 7.43573, ' m^2/d')
+('Storage:                     ', 0.00072753003, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 69)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 73)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.82847, ' m^2/d')
+('Storage:                     ', 0.00073427494, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 73)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 75)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.422946, ' m^2/d')
+('Storage:                     ', 0.00098557627, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 75)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 78)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.794398, ' m^2/d')
+('Storage:                     ', 0.00065116958, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 78)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 81)
+starting model run...
+INPUTS
+('Transmissivity:              ', 19.094534, ' m^2/d')
+('Storage:                     ', 0.00073179568, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 81)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 86)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.3371585, ' m^2/d')
+('Storage:                     ', 0.00074224797, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 86)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 89)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.395191, ' m^2/d')
+('Storage:                     ', 0.00086140607, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 89)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 92)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.2753666, ' m^2/d')
+('Storage:                     ', 0.000748967, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 92)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 95)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.9363009, ' m^2/d')
+('Storage:                     ', 0.0013881468, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 95)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 7, run id = 98)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.7979057, ' m^2/d')
+('Storage:                     ', 0.00076616656, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 7, run id = 98)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 4.7833559, ' m^2/d')
+('Storage:                     ', 0.0015672221, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 3)
+starting model run...
+INPUTS
+('Transmissivity:              ', 7.5105047, ' m^2/d')
+('Storage:                     ', 0.00016552033, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 3)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 6)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.717423, ' m^2/d')
+('Storage:                     ', 0.00013932991, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 6)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 9)
+starting model run...
+INPUTS
+('Transmissivity:              ', 13.543654, ' m^2/d')
+('Storage:                     ', 0.000118977, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 9)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 13)
+starting model run...
+INPUTS
+('Transmissivity:              ', 23.504633, ' m^2/d')
+('Storage:                     ', 0.00051892316, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 13)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 15)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.1456726, ' m^2/d')
+('Storage:                     ', 0.00048333016, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 15)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 18)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.1622491, ' m^2/d')
+('Storage:                     ', 0.0006098878, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 18)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 21)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.9773356, ' m^2/d')
+('Storage:                     ', 0.0008645788, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 21)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 26)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.3191511, ' m^2/d')
+('Storage:                     ', 0.0009572025, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 26)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 29)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.0252516, ' m^2/d')
+('Storage:                     ', 0.00025725354, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 29)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 32)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.4368827, ' m^2/d')
+('Storage:                     ', 0.0003772845, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 32)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 35)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.173084, ' m^2/d')
+('Storage:                     ', 0.00058654078, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 35)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 37)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.734205, ' m^2/d')
+('Storage:                     ', 5.0329698e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 37)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 40)
+starting model run...
+INPUTS
+('Transmissivity:              ', 5.6282906, ' m^2/d')
+('Storage:                     ', 0.00029174372, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 40)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 8, run id = 42)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.9592299, ' m^2/d')
+('Storage:                     ', 0.0003426491, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 8, run id = 42)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.2623036, ' m^2/d')
+('Storage:                     ', 0.00020633296, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 3)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.2439327, ' m^2/d')
+('Storage:                     ', 0.00035105636, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 3)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 7)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6816156, ' m^2/d')
+('Storage:                     ', 0.00022369845, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 7)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 9)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.5112082, ' m^2/d')
+('Storage:                     ', 0.00016638994, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 9)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 13)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6522452, ' m^2/d')
+('Storage:                     ', 0.00015968364, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 13)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 17)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.9406244, ' m^2/d')
+('Storage:                     ', 0.00014707104, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 17)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 20)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.2419907, ' m^2/d')
+('Storage:                     ', 0.00020832781, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 20)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 23)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.1965753, ' m^2/d')
+('Storage:                     ', 0.00035897979, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 23)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 26)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.7974337, ' m^2/d')
+('Storage:                     ', 0.00013104714, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 26)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 29)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.4639423, ' m^2/d')
+('Storage:                     ', 0.00016967683, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 29)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 31)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.890423, ' m^2/d')
+('Storage:                     ', 0.00016274546, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 31)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 34)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7106735, ' m^2/d')
+('Storage:                     ', 0.0001048701, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 34)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 37)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.883447, ' m^2/d')
+('Storage:                     ', 0.00015044024, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 37)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 40)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.217967, ' m^2/d')
+('Storage:                     ', 0.00021069792, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 40)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 43)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.1407869, ' m^2/d')
+('Storage:                     ', 0.00036854753, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 43)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 46)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.7512164, ' m^2/d')
+('Storage:                     ', 0.00013375964, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 46)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 49)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.4082165, ' m^2/d')
+('Storage:                     ', 0.00017362629, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 49)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 52)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.4092509, ' m^2/d')
+('Storage:                     ', 0.00014636889, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 52)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 55)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.087283, ' m^2/d')
+('Storage:                     ', 0.00015710226, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 55)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 58)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.024243, ' m^2/d')
+('Storage:                     ', 9.8853272e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 58)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 60)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.1739419, ' m^2/d')
+('Storage:                     ', 0.00021507024, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 60)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 63)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.0391833, ' m^2/d')
+('Storage:                     ', 0.00038662849, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 63)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 66)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.6663187, ' m^2/d')
+('Storage:                     ', 0.00013875164, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 66)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 69)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.306592, ' m^2/d')
+('Storage:                     ', 0.00018103732, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 69)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 72)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.3087068, ' m^2/d')
+('Storage:                     ', 0.0001525067, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 72)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 75)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.812253, ' m^2/d')
+('Storage:                     ', 0.00017289528, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 75)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 78)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8819363, ' m^2/d')
+('Storage:                     ', 0.00010431102, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 78)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 81)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.1213725, ' m^2/d')
+('Storage:                     ', 0.00026545991, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 81)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 84)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.5515635, ' m^2/d')
+('Storage:                     ', 0.00019490687, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 84)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 87)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.9014611, ' m^2/d')
+('Storage:                     ', 0.00030705905, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 87)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 90)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.0572158, ' m^2/d')
+('Storage:                     ', 0.00013135099, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 90)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 93)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.1724149, ' m^2/d')
+('Storage:                     ', 0.00019382273, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 93)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 96)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.2799512, ' m^2/d')
+('Storage:                     ', 0.00015856464, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 96)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 9, run id = 99)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.719462, ' m^2/d')
+('Storage:                     ', 0.000189416, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 9, run id = 99)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 2)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.5782488, ' m^2/d')
+('Storage:                     ', 0.00011055268, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 2)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 5)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.62147, ' m^2/d')
+('Storage:                     ', 6.5832055e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 5)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 6)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.518934, ' m^2/d')
+('Storage:                     ', 6.0344705e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 6)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 9)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.3281905, ' m^2/d')
+('Storage:                     ', 0.00052392049, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 9)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 12)
+starting model run...
+INPUTS
+('Transmissivity:              ', 14.067334, ' m^2/d')
+('Storage:                     ', 5.1688735e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 12)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 15)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.344004, ' m^2/d')
+('Storage:                     ', 0.00027506336, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 15)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 18)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.480606, ' m^2/d')
+('Storage:                     ', 0.00013685935, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 18)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 21)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.388458, ' m^2/d')
+('Storage:                     ', 0.00010301143, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 21)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 24)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.842491, ' m^2/d')
+('Storage:                     ', 6.572969e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 24)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 27)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.0348976, ' m^2/d')
+('Storage:                     ', 0.00056691645, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 27)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 30)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.235406, ' m^2/d')
+('Storage:                     ', 0.00010036338, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 30)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 33)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7614927, ' m^2/d')
+('Storage:                     ', 0.00013562252, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 33)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 36)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.7907232, ' m^2/d')
+('Storage:                     ', 0.00020764449, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 36)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 39)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.483277, ' m^2/d')
+('Storage:                     ', 0.00012026354, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 39)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 10, run id = 44)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.79813, ' m^2/d')
+('Storage:                     ', 5.0348315e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 10, run id = 44)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7902663, ' m^2/d')
+('Storage:                     ', 0.00012484231, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 3)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.080548, ' m^2/d')
+('Storage:                     ', 0.00010669737, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 3)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 6)
+starting model run...
+INPUTS
+('Transmissivity:              ', 13.004938, ' m^2/d')
+('Storage:                     ', 8.999423e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 6)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 10)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.498135, ' m^2/d')
+('Storage:                     ', 9.6653084e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 10)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 13)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.044085, ' m^2/d')
+('Storage:                     ', 0.00013379305, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 13)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 16)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7994806, ' m^2/d')
+('Storage:                     ', 0.000118968, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 16)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 19)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7230789, ' m^2/d')
+('Storage:                     ', 0.00011129501, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 19)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 22)
+starting model run...
+INPUTS
+('Transmissivity:              ', 13.670058, ' m^2/d')
+('Storage:                     ', 8.2290253e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 22)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 25)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.017798, ' m^2/d')
+('Storage:                     ', 0.00013703109, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 25)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 28)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7969291, ' m^2/d')
+('Storage:                     ', 0.00012044818, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 28)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 31)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8122048, ' m^2/d')
+('Storage:                     ', 0.00011012889, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 31)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 34)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.379297, ' m^2/d')
+('Storage:                     ', 9.834133e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 34)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 37)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.054018, ' m^2/d')
+('Storage:                     ', 0.00013258327, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 37)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 40)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7899758, ' m^2/d')
+('Storage:                     ', 0.00012488879, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 40)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 43)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.08172, ' m^2/d')
+('Storage:                     ', 0.00010669905, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 43)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 46)
+starting model run...
+INPUTS
+('Transmissivity:              ', 13.013336, ' m^2/d')
+('Storage:                     ', 8.9913974e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 46)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 49)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.037975, ' m^2/d')
+('Storage:                     ', 0.00013452609, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 49)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 52)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7973628, ' m^2/d')
+('Storage:                     ', 0.00012001681, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 52)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 55)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7840391, ' m^2/d')
+('Storage:                     ', 0.00011051867, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 55)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 58)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.142529, ' m^2/d')
+('Storage:                     ', 0.00010183527, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 58)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 61)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.9912223, ' m^2/d')
+('Storage:                     ', 0.0001403883, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 61)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 64)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7931959, ' m^2/d')
+('Storage:                     ', 0.00012250317, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 64)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 67)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.933677, ' m^2/d')
+('Storage:                     ', 0.00010859433, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 67)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 70)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.519631, ' m^2/d')
+('Storage:                     ', 9.6423348e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 70)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 72)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7967323, ' m^2/d')
+('Storage:                     ', 0.00012011433, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 72)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 77)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.05228, ' m^2/d')
+('Storage:                     ', 0.00013276861, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 77)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 80)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7887629, ' m^2/d')
+('Storage:                     ', 0.00012508622, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 80)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 83)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.086847, ' m^2/d')
+('Storage:                     ', 0.00010670276, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 83)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 85)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.014354, ' m^2/d')
+('Storage:                     ', 0.00013741315, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 85)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 88)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7943179, ' m^2/d')
+('Storage:                     ', 0.00012085751, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 88)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 92)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7949353, ' m^2/d')
+('Storage:                     ', 0.00012039657, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 92)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 95)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.7939918, ' m^2/d')
+('Storage:                     ', 0.00011052638, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 95)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 11, run id = 98)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.192602, ' m^2/d')
+('Storage:                     ', 0.000101252, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 11, run id = 98)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.994824, ' m^2/d')
+('Storage:                     ', 8.8169303e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 3)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.3834838, ' m^2/d')
+('Storage:                     ', 0.00018206522, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 3)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 7)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.433619, ' m^2/d')
+('Storage:                     ', 5.8097e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 7)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 10)
+starting model run...
+INPUTS
+('Transmissivity:              ', 14.539909, ' m^2/d')
+('Storage:                     ', 2.2491416e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 10)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 12)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.4874954, ' m^2/d')
+('Storage:                     ', 0.00012001157, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 12)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 15)
+starting model run...
+INPUTS
+('Transmissivity:              ', 7.9648395, ' m^2/d')
+('Storage:                     ', 0.00024453484, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 15)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 18)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.337448, ' m^2/d')
+('Storage:                     ', 7.1866004e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 18)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 22)
+starting model run...
+INPUTS
+('Transmissivity:              ', 6.3827181, ' m^2/d')
+('Storage:                     ', 0.00040107753, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 22)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 24)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.418481, ' m^2/d')
+('Storage:                     ', 7.1156307e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 24)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 27)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.638287, ' m^2/d')
+('Storage:                     ', 0.00011691732, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 27)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 31)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.473746, ' m^2/d')
+('Storage:                     ', 8.3436411e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 31)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 34)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6143568, ' m^2/d')
+('Storage:                     ', 0.00012943119, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 34)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 37)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.499681, ' m^2/d')
+('Storage:                     ', 8.9083728e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 37)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 40)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.9232379, ' m^2/d')
+('Storage:                     ', 9.761982e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 40)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 12, run id = 42)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.163296, ' m^2/d')
+('Storage:                     ', 8.6695327e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 12, run id = 42)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8245163, ' m^2/d')
+('Storage:                     ', 0.00011561281, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 4)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.837058, ' m^2/d')
+('Storage:                     ', 0.00011397086, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 4)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 7)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.4388854, ' m^2/d')
+('Storage:                     ', 0.00018359054, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 7)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 9)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.116211, ' m^2/d')
+('Storage:                     ', 0.00012550859, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 9)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 13)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.119469, ' m^2/d')
+('Storage:                     ', 0.00012514937, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 13)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 16)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8546434, ' m^2/d')
+('Storage:                     ', 0.00011171124, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 16)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 19)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.4485677, ' m^2/d')
+('Storage:                     ', 0.00018176497, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 19)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 22)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6275702, ' m^2/d')
+('Storage:                     ', 0.00012622687, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 22)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 25)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.103169, ' m^2/d')
+('Storage:                     ', 0.00012695746, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 25)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 28)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8470841, ' m^2/d')
+('Storage:                     ', 0.00011267603, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 28)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 31)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.4444071, ' m^2/d')
+('Storage:                     ', 0.00018254685, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 31)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 34)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6408017, ' m^2/d')
+('Storage:                     ', 0.00012310187, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 34)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 37)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.125966, ' m^2/d')
+('Storage:                     ', 0.0001244364, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 37)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 40)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.824494, ' m^2/d')
+('Storage:                     ', 0.00011561513, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 40)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 43)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.4319648, ' m^2/d')
+('Storage:                     ', 0.0001849078, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 43)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 46)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6341699, ' m^2/d')
+('Storage:                     ', 0.0001246565, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 46)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 49)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.116163, ' m^2/d')
+('Storage:                     ', 0.00012551325, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 49)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 52)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8495712, ' m^2/d')
+('Storage:                     ', 0.00011235676, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 52)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 55)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.4457774, ' m^2/d')
+('Storage:                     ', 0.00018228878, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 55)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 58)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.64343, ' m^2/d')
+('Storage:                     ', 0.00012248899, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 58)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 61)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.086874, ' m^2/d')
+('Storage:                     ', 0.00012879361, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 61)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 64)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8369875, ' m^2/d')
+('Storage:                     ', 0.00011397813, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 64)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 66)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6341424, ' m^2/d')
+('Storage:                     ', 0.00012466035, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 66)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 69)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.11611, ' m^2/d')
+('Storage:                     ', 0.00012551841, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 69)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 72)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8495216, ' m^2/d')
+('Storage:                     ', 0.00011236178, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 72)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 75)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.4457521, ' m^2/d')
+('Storage:                     ', 0.0001822933, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 75)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 79)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.4485148, ' m^2/d')
+('Storage:                     ', 0.00018177441, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 79)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 82)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6274878, ' m^2/d')
+('Storage:                     ', 0.00012623853, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 82)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 84)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8368765, ' m^2/d')
+('Storage:                     ', 0.00011398955, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 84)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 87)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.4387927, ' m^2/d')
+('Storage:                     ', 0.00018360725, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 87)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 90)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6393211, ' m^2/d')
+('Storage:                     ', 0.00012343252, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 90)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 94)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6406368, ' m^2/d')
+('Storage:                     ', 0.00012312462, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 94)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 13, run id = 97)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.125691, ' m^2/d')
+('Storage:                     ', 0.00012446303, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 13, run id = 97)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.6310805, ' m^2/d')
+('Storage:                     ', 0.00010939836, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 3)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.043274, ' m^2/d')
+('Storage:                     ', 7.4734403e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 3)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 7)
+starting model run...
+INPUTS
+('Transmissivity:              ', 13.244867, ' m^2/d')
+('Storage:                     ', 5.9271497e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 7)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 9)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.460533, ' m^2/d')
+('Storage:                     ', 5.2540322e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 9)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 12)
+starting model run...
+INPUTS
+('Transmissivity:              ', 14.899459, ' m^2/d')
+('Storage:                     ', 1.6356131e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 12)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 15)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.098562, ' m^2/d')
+('Storage:                     ', 5.5137611e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 15)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 19)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.297347, ' m^2/d')
+('Storage:                     ', 0.0001742204, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 19)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 21)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.065035, ' m^2/d')
+('Storage:                     ', 0.00011918252, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 21)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 24)
+starting model run...
+INPUTS
+('Transmissivity:              ', 7.4787669, ' m^2/d')
+('Storage:                     ', 0.00021107687, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 24)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 27)
+starting model run...
+INPUTS
+('Transmissivity:              ', 7.9571228, ' m^2/d')
+('Storage:                     ', 0.00021000292, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 27)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 30)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.9004487, ' m^2/d')
+('Storage:                     ', 0.00012097844, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 30)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 33)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.1511978, ' m^2/d')
+('Storage:                     ', 0.00015953935, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 33)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 36)
+starting model run...
+INPUTS
+('Transmissivity:              ', 8.8239748, ' m^2/d')
+('Storage:                     ', 0.00020558619, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 36)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 39)
+starting model run...
+INPUTS
+('Transmissivity:              ', 12.22457, ' m^2/d')
+('Storage:                     ', 6.9973644e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 39)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 42)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.273381, ' m^2/d')
+('Storage:                     ', 7.7293623e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 42)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 14, run id = 45)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.2007981, ' m^2/d')
+('Storage:                     ', 0.00010018469, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 14, run id = 45)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 2)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.773485, ' m^2/d')
+('Storage:                     ', 5.5886767e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 2)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 3)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.083478, ' m^2/d')
+('Storage:                     ', 0.00011713467, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 3)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 6)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.734993, ' m^2/d')
+('Storage:                     ', 5.7801869e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 6)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 10)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.70429, ' m^2/d')
+('Storage:                     ', 5.9381096e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 10)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 13)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.178174, ' m^2/d')
+('Storage:                     ', 0.00011982273, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 13)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 16)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.907126, ' m^2/d')
+('Storage:                     ', 0.00010708629, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 16)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 19)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.105654, ' m^2/d')
+('Storage:                     ', 0.00011472363, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 19)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 22)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.773487, ' m^2/d')
+('Storage:                     ', 5.5886683e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 22)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 24)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8903959, ' m^2/d')
+('Storage:                     ', 0.00010853678, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 24)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 27)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.092711, ' m^2/d')
+('Storage:                     ', 0.00011612404, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 27)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 30)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.704294, ' m^2/d')
+('Storage:                     ', 5.9380927e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 30)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 33)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.178172, ' m^2/d')
+('Storage:                     ', 0.00011982283, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 33)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 37)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.183405, ' m^2/d')
+('Storage:                     ', 0.00011937121, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 37)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 40)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8784634, ' m^2/d')
+('Storage:                     ', 0.00010958484, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 40)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 43)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.083477, ' m^2/d')
+('Storage:                     ', 0.00011713477, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 43)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 46)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.735, ' m^2/d')
+('Storage:                     ', 5.7801578e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 46)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 49)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.175556, ' m^2/d')
+('Storage:                     ', 0.00012004939, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 49)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 52)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.9023408, ' m^2/d')
+('Storage:                     ', 0.00010749892, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 52)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 55)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.101952, ' m^2/d')
+('Storage:                     ', 0.0001151222, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 55)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 58)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.681326, ' m^2/d')
+('Storage:                     ', 6.0593318e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 58)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 61)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.152046, ' m^2/d')
+('Storage:                     ', 0.00012210685, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 61)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 64)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8903928, ' m^2/d')
+('Storage:                     ', 0.00010853704, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 64)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 67)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.092708, ' m^2/d')
+('Storage:                     ', 0.00011612429, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 67)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 70)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.704308, ' m^2/d')
+('Storage:                     ', 5.9380296e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 70)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 73)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.178168, ' m^2/d')
+('Storage:                     ', 0.0001198232, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 73)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 76)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.9071202, ' m^2/d')
+('Storage:                     ', 0.00010708677, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 76)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 79)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.105649, ' m^2/d')
+('Storage:                     ', 0.00011472409, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 79)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 82)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.773509, ' m^2/d')
+('Storage:                     ', 5.5885745e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 82)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 85)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.165092, ' m^2/d')
+('Storage:                     ', 0.00012096019, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 85)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 88)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8999399, ' m^2/d')
+('Storage:                     ', 0.00010770658, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 88)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 91)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.100094, ' m^2/d')
+('Storage:                     ', 0.00011532273, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 91)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 94)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.696676, ' m^2/d')
+('Storage:                     ', 5.9780413e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 94)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 15, run id = 97)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.183391, ' m^2/d')
+('Storage:                     ', 0.00011937242, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 15, run id = 97)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8784634, ' m^2/d')
+('Storage:                     ', 0.00010958484, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 3)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.083477, ' m^2/d')
+('Storage:                     ', 0.00011713477, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 3)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 6)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.735, ' m^2/d')
+('Storage:                     ', 5.7801578e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 6)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 11)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.100103, ' m^2/d')
+('Storage:                     ', 0.00011532189, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 11)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 14)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.696636, ' m^2/d')
+('Storage:                     ', 5.9782197e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 14)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 17)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.183404, ' m^2/d')
+('Storage:                     ', 0.00011937135, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 17)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 20)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8784578, ' m^2/d')
+('Storage:                     ', 0.00010958531, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 20)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 23)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.083472, ' m^2/d')
+('Storage:                     ', 0.00011713522, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 23)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 26)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.73503, ' m^2/d')
+('Storage:                     ', 5.7800284e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 26)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 29)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.175544, ' m^2/d')
+('Storage:                     ', 0.00012005033, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 29)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 32)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.9023296, ' m^2/d')
+('Storage:                     ', 0.00010749983, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 32)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 35)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.101943, ' m^2/d')
+('Storage:                     ', 0.00011512308, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 35)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 38)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.68137, ' m^2/d')
+('Storage:                     ', 6.0591329e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 38)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 41)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.152034, ' m^2/d')
+('Storage:                     ', 0.00012210785, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 41)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 44)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.890376, ' m^2/d')
+('Storage:                     ', 0.00010853843, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 44)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 47)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.092694, ' m^2/d')
+('Storage:                     ', 0.00011612563, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 47)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 50)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.704385, ' m^2/d')
+('Storage:                     ', 5.937693e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 50)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 53)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.178145, ' m^2/d')
+('Storage:                     ', 0.00011982516, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 53)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 55)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.101931, ' m^2/d')
+('Storage:                     ', 0.00011512419, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 55)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 58)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.681425, ' m^2/d')
+('Storage:                     ', 6.0588844e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 58)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 61)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.152019, ' m^2/d')
+('Storage:                     ', 0.0001221091, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 61)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 64)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8903551, ' m^2/d')
+('Storage:                     ', 0.00010854017, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 64)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 66)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.735143, ' m^2/d')
+('Storage:                     ', 5.7795438e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 66)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 69)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.175503, ' m^2/d')
+('Storage:                     ', 0.00012005383, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 69)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 72)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.9022877, ' m^2/d')
+('Storage:                     ', 0.00010750327, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 72)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 75)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.101908, ' m^2/d')
+('Storage:                     ', 0.0001151264, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 75)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 78)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.681535, ' m^2/d')
+('Storage:                     ', 6.0583878e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 78)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 81)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.151976, ' m^2/d')
+('Storage:                     ', 0.00012211283, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 81)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 84)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8902923, ' m^2/d')
+('Storage:                     ', 0.00010854536, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 84)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 87)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.092625, ' m^2/d')
+('Storage:                     ', 0.00011613231, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 87)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 90)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.704765, ' m^2/d')
+('Storage:                     ', 5.9360145e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 90)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 94)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.697127, ' m^2/d')
+('Storage:                     ', 5.9760397e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 94)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 16, run id = 97)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.183246, ' m^2/d')
+('Storage:                     ', 0.00011938449, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 16, run id = 97)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 0)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8784508, ' m^2/d')
+('Storage:                     ', 0.00010958589, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 0)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 4)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.890376, ' m^2/d')
+('Storage:                     ', 0.00010853843, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 4)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 6)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.735068, ' m^2/d')
+('Storage:                     ', 5.7798668e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 6)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 10)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.704385, ' m^2/d')
+('Storage:                     ', 5.937693e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 10)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 13)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.178145, ' m^2/d')
+('Storage:                     ', 0.00011982516, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 13)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 16)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.9070955, ' m^2/d')
+('Storage:                     ', 0.00010708878, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 16)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 18)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.681425, ' m^2/d')
+('Storage:                     ', 6.0588844e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 18)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 22)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.773736, ' m^2/d')
+('Storage:                     ', 5.5876388e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 22)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 24)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8902923, ' m^2/d')
+('Storage:                     ', 0.00010854536, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 24)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 27)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.092625, ' m^2/d')
+('Storage:                     ', 0.00011613231, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 27)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 30)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.704765, ' m^2/d')
+('Storage:                     ', 5.9360145e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 30)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 33)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.178028, ' m^2/d')
+('Storage:                     ', 0.00011983495, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 33)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 36)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.9069726, ' m^2/d')
+('Storage:                     ', 0.00010709881, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 36)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 39)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.105526, ' m^2/d')
+('Storage:                     ', 0.00011473572, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 39)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 42)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.773987, ' m^2/d')
+('Storage:                     ', 5.5866046e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 42)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 45)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.164884, ' m^2/d')
+('Storage:                     ', 0.00012097775, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 45)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 48)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8996885, ' m^2/d')
+('Storage:                     ', 0.00010772722, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 48)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 51)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.099885, ' m^2/d')
+('Storage:                     ', 0.00011534265, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 51)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 54)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.697625, ' m^2/d')
+('Storage:                     ', 5.9738276e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 54)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 57)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.183086, ' m^2/d')
+('Storage:                     ', 0.00011939784, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 57)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 60)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8781883, ' m^2/d')
+('Storage:                     ', 0.00010960787, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 60)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 63)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.083247, ' m^2/d')
+('Storage:                     ', 0.00011715696, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 63)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 66)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.736486, ' m^2/d')
+('Storage:                     ', 5.7737908e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 66)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 71)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.099667, ' m^2/d')
+('Storage:                     ', 0.0001153634, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 71)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 74)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.698611, ' m^2/d')
+('Storage:                     ', 5.969441e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 74)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 77)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.182768, ' m^2/d')
+('Storage:                     ', 0.00011942432, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 77)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 80)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.8777851, ' m^2/d')
+('Storage:                     ', 0.00010964166, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 80)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 83)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.082911, ' m^2/d')
+('Storage:                     ', 0.00011718954, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 83)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 86)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.738662, ' m^2/d')
+('Storage:                     ', 5.7644535e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 86)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 87)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.091862, ' m^2/d')
+('Storage:                     ', 0.00011620559, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 87)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 90)
+starting model run...
+INPUTS
+('Transmissivity:              ', 11.708926, ' m^2/d')
+('Storage:                     ', 5.9176435e-05, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 90)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 93)
+starting model run...
+INPUTS
+('Transmissivity:              ', 10.176745, ' m^2/d')
+('Storage:                     ', 0.00011994229, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 93)...
+results sent
+
+sending ready signal to master
+received parameters (group id = 17, run id = 96)
+starting model run...
+INPUTS
+('Transmissivity:              ', 9.9056269, ' m^2/d')
+('Storage:                     ', 0.0001072087, ' - ')
+received finished signal from run thread 
+run complete
+sending results to master (group id = 17, run id = 96)...
+results sent
+
+sending ready signal to master
+terminated requested
+
+Simulation Complete...

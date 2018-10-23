@@ -1,1 +1,0 @@
-pest montecarlo_mc.pst /i <montecarlo.txt

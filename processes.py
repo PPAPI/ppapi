@@ -25,22 +25,54 @@ class Processes():
         self.fs_helpers = fsh.FileSystem(resources_root=self.resources_root)
         self.status_file = "papi_process_status.txt"
         self.system = platform.system()
-
+    def reap_children(timeout=3):
+        "Tries hard to terminate and ultimately kill all the children of this process."
+        def on_terminate(proc):
+            print("process {} terminated with exit code {}".format(proc, proc.returncode))
+    
+        procs = psutil.Process().children()
+        # send SIGTERM
+        for p in procs:
+            p.terminate()
+        gone, alive = psutil.wait_procs(procs, timeout=timeout, callback=on_terminate)
+        if alive:
+            # send SIGKILL
+            for p in alive:
+                print("process {} survived SIGTERM; trying SIGKILL" % p)
+                p.kill()
+            gone, alive = psutil.wait_procs(alive, timeout=timeout, callback=on_terminate)
+            if alive:
+                # give up
+                for p in alive:
+                    print("process {} survived SIGKILL; giving up" % p)
     ## Function to kill all child processes that belong a parent process
     #  @param pid process id
     #  @param including_parent parnet process is also killed if set to True
-    def kill_proc_tree(self, _pid, including_parent=True):
+    def kill_proc_tree(self, _pid, including_parent=True,timeout=5):
+        def on_terminate(proc):
+            print("process {} terminated with exit code {}".format(proc, proc.returncode))
         parent = psutil.Process(_pid)
         children = []
         children = parent.children(recursive=True)
         for child in children:
-            child.kill()
-        psutil.wait_procs(children, timeout=5)
+            child.terminate() 
+        gone, alive = psutil.wait_procs(children, timeout=timeout, callback=on_terminate)
+        if alive:
+            # send SIGKILL
+            for p in alive:
+                print("process {} survived SIGTERM; trying SIGKILL" % p)
+                p.kill()
+            gone, alive = psutil.wait_procs(alive, timeout=timeout, callback=on_terminate)
+            if alive:
+                # give up
+                for p in alive:
+                    print("process {} survived SIGKILL; giving up" % p)
         if including_parent:
             if psutil.pid_exists(parent.pid):
-                parent.kill()
-                parent.wait(5)
-
+                parent.terminate()
+                parent.wait(timeout=timeout)
+                if psutil.pid_exists(parent.pid):
+                    parent.kill()
     ## Callback function that is executed after a process is completed
     #  A status file is generated that contains the return code of the executed process
     #  @param _path path where the processes was started

@@ -24,6 +24,21 @@ class TestPPapi(unittest.TestCase):
         self.assertEqual(re['runs'][0]['run'],u'case1' + os.path.sep + '0')
         self.assertEqual(re['runs'][3]['run'],u'case1' + os.path.sep + '3')
 
+    def test_pestpp_ies_start(self):
+        case_str = '/case/case1'
+        r_file_str = os.path.join('tests', 'test_data', 'calibration_model.zip')
+        res = self.app.delete(case_str)
+        res = self.app.post(case_str, data=dict(
+            zip_file=(open(r_file_str, 'rb'), 'calibration_model.zip'),
+            min_run_id=1,
+            max_run_id=3,
+            type="pestpp-ies",
+            master=":4004"
+        )) 
+        re = json.loads(res.data.decode('utf-8'))
+        self.assertEqual(re['runs'][0]['run'],u'case1' + os.path.sep + '0')
+        self.assertEqual(re['runs'][3]['run'],u'case1' + os.path.sep + '3')
+
     def test_calibration_restart(self):
         case_str = '/case/case1'
         r_file_str = os.path.join('tests','test_data', 'calibration_model.zip')

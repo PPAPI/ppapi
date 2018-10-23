@@ -1,0 +1,150 @@
+                     PEST RUN RECORD: CASE calibration
+
+
+ BEOPEST Version: 15.00
+
+
+ PEST run mode:-
+
+    Parameter estimation mode
+
+
+ Case dimensions:-
+
+    Number of parameters                           :     2
+    Number of adjustable parameters                :     2
+    Number of parameter groups                     :     2
+    Number of observations                         :    20
+    Number of prior estimates                      :     0
+
+
+ Model command line(s):-
+ 
+    python Theis_Drawdown.py
+
+
+ Jacobian command line:-
+
+    na
+
+
+ Model interface files:-
+
+    Templates:
+       ap.tpl
+    for model input files:
+       params.txt
+
+    (Parameter values written using single precision protocol.)
+    (Decimal point always included.)
+
+    Instruction files:
+       obs_1.ins
+       obs_2.ins
+    for reading model output files:
+       obs_1.csv
+       obs_2.csv
+
+
+ PEST-to-model message file:-
+
+    na
+
+
+ Derivatives calculation:-
+
+ Param        Increment   Increment   Increment   Forward or   Multiplier  Method
+ group        type                    low bound   central      (central)   (central)
+ tr           relative    1.0000E-02   none       always_3       2.000     parabolic
+ stor         relative    1.0000E-02   none       always_3       2.000     parabolic
+
+
+ Parameter definitions:-
+
+ Name         Trans-            Change       Initial        Lower          Upper
+              formation         limit        value          bound          bound
+ tr1          log               factor      5.00000       0.100000        10000.0    
+ stor1        log               factor     1.000000E-02   1.000000E-05   0.100000    
+
+ Name         Group          Scale         Offset        Model command number
+ tr1          tr            1.00000        0.00000            1
+ stor1        stor          1.00000        0.00000            1
+
+
+ Prior information:-
+
+    No prior information supplied
+
+
+ Observations:-
+
+ Observation name        Observation       Weight       Group
+  obs_1_1                 3.18862          1.000       dd          
+  obs_1_2                 3.81151          1.000       dd          
+  obs_1_3                 4.18537          1.000       dd          
+  obs_1_4                 4.45335          1.000       dd          
+  obs_1_5                 5.83600          1.000       dd          
+  obs_1_6                 2.70564          1.000       dd          
+  obs_1_7                 2.54777          1.000       dd          
+  obs_1_8                 2.26226          1.000       dd          
+  obs_1_9                 1.03821          1.000       dd          
+  obs_1_10               0.430482          1.000       dd          
+  obs_2_1                 2.61998          1.000       dd          
+  obs_2_2                 3.24337          1.000       dd          
+  obs_2_3                 3.61744          1.000       dd          
+  obs_2_4                 3.88555          1.000       dd          
+  obs_2_5                 5.10212          1.000       dd          
+  obs_2_6                 2.65474          1.000       dd          
+  obs_2_7                 2.49689          1.000       dd          
+  obs_2_8                 2.19909          1.000       dd          
+  obs_2_9                 1.03798          1.000       dd          
+  obs_2_10               0.430467          1.000       dd          
+
+
+ Control settings:-
+
+    Initial lambda                                               :  5.0000    
+    Lambda adjustment factor                                     :  2.0000    
+    Sufficient new/old phi ratio per optimisation iteration      : 0.30000    
+    Limiting relative phi reduction between lambdas              : 1.00000E-02
+    Maximum trial lambdas per iteration                          :   7
+    Forgive model run failure during lamda testing               : no
+    Forgive model run failure during Jacobian runs               : no
+
+    Perform Broyden's update of Jacobian matrix                  : yes
+    Maximum number of updates per iteration                      : 999
+    Undertake observation re-referencing                         : no
+
+    Maximum  factor  parameter change (factor-limited changes)   :  3.0000
+    Maximum relative parameter change (relative-limited changes) : na
+    Fraction of initial parameter values used in computing
+    change limit for near-zero parameters                        : 1.00000E-03
+    Allow bending of parameter upgrade vector                    : no
+    Allow parameters to stick to their bounds                    : no
+
+    Relative phi reduction below which to begin use of
+    central derivatives                                          : na                  
+    Iteration at which to first consider derivatives switch      : na
+
+    Relative phi reduction indicating convergence                : 0.10000E-01
+    Number of phi values required within this range              :   3
+    Maximum number of consecutive failures to lower phi          :   3
+    Minimal relative parameter change indicating convergence     : 0.10000E-01
+    Number of consecutive iterations with minimal param change   :   3
+    Maximum number of optimisation iterations                    :  10
+
+    Attempt automatic user intervention                          : no
+
+    Attempt reuse of parameter sensitivities                     : no
+
+    Scale parameters by their bounds                             : no
+
+
+ File saving options: -
+
+    Save best JCO file                                           : yes
+    Save multiple JCO files                                      : no
+    Save multiple REI files                                      : no
+    Save multiple PAR files                                      : no
+ 
+ 
