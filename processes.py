@@ -25,26 +25,7 @@ class Processes():
         self.fs_helpers = fsh.FileSystem(resources_root=self.resources_root)
         self.status_file = "papi_process_status.txt"
         self.system = platform.system()
-    def reap_children(timeout=3):
-        "Tries hard to terminate and ultimately kill all the children of this process."
-        def on_terminate(proc):
-            print("process {} terminated with exit code {}".format(proc, proc.returncode))
-    
-        procs = psutil.Process().children()
-        # send SIGTERM
-        for p in procs:
-            p.terminate()
-        gone, alive = psutil.wait_procs(procs, timeout=timeout, callback=on_terminate)
-        if alive:
-            # send SIGKILL
-            for p in alive:
-                print("process {} survived SIGTERM; trying SIGKILL" % p)
-                p.kill()
-            gone, alive = psutil.wait_procs(alive, timeout=timeout, callback=on_terminate)
-            if alive:
-                # give up
-                for p in alive:
-                    print("process {} survived SIGKILL; giving up" % p)
+
     ## Function to kill all child processes that belong a parent process
     #  @param pid process id
     #  @param including_parent parnet process is also killed if set to True

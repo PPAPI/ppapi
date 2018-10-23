@@ -17,7 +17,7 @@ master_port = ""
 c_type = None
 os_sys = platform.system()
 hostname = None
-os.environ["PATH"] += os.pathsep + "C:\\pest13"
+
 
 @app.route('/api', methods=['GET'])
 def api():
@@ -190,4 +190,4 @@ def case_delete(case):
     return jsonify(runs=procs, hostname=hostname)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=1801, host="0.0.0.0", threaded=True)
+    app.run(debug=True, port=4003, host="0.0.0.0", threaded=True)
