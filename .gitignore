@@ -1,3 +1,4 @@
+*.cert
 *.exe
 *.bat
 *.pyc
